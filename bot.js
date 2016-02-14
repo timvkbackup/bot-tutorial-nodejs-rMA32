@@ -144,7 +144,7 @@ function postMessage(response) {
   });
   botReq.end(JSON.stringify(body));
 }
-else if(request.text && /ayy.test(request.text)) {
+else if(request.text && ayy.test(request.text)) {
 this.res.writeHead(200);
 postMessage("lmao");
 this.res.end();
