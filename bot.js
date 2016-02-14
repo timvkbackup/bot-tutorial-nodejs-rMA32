@@ -82,6 +82,12 @@ function respond() {
     postMessage("OBJ*");
     this.res.end();
   } 
+}
+else if(request.text && ayy.test(request.text)) {
+this.res.writeHead(200);
+postMessage("lmao");
+this.res.end();
+}
   else if(request.text && botDuck.test(request.text)) {
     this.res.writeHead(200);
     postMessage("http://media3.giphy.com/media/YCseTHF2I6CCA/giphy.gif");
@@ -143,12 +149,7 @@ function postMessage(response) {
     console.log('timeout posting message '  + JSON.stringify(err));
   });
   botReq.end(JSON.stringify(body));
-}
-else if(request.text && ayy.test(request.text)) {
-this.res.writeHead(200);
-postMessage("lmao");
-this.res.end();
-}
+
 
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
