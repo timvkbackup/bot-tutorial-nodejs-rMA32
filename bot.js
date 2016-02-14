@@ -1,4 +1,4 @@
-var HTTPS = require('https');
+vvar HTTPS = require('https');
 var cool = require('cool-ascii-faces');
 
 var botID = process.env.BOT_ID;
@@ -108,6 +108,7 @@ function respond() {
     this.res.writeHead(200);
     this.res.end();
   }
+}
 
 function postMessage(response) {
   var botResponse,options, body, botReq;
@@ -142,7 +143,7 @@ function postMessage(response) {
     console.log('timeout posting message '  + JSON.stringify(err));
   });
   botReq.end(JSON.stringify(body));
-
+}
 
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
