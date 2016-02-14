@@ -108,7 +108,6 @@ function respond() {
     this.res.writeHead(200);
     this.res.end();
   }
-}
 
 function postMessage(response) {
   var botResponse,options, body, botReq;
