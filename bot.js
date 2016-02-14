@@ -82,12 +82,6 @@ function respond() {
     postMessage("OBJ*");
     this.res.end();
   } 
-}
-else if(request.text && ayy.test(request.text)) {
-this.res.writeHead(200);
-postMessage("lmao");
-this.res.end();
-}
   else if(request.text && botDuck.test(request.text)) {
     this.res.writeHead(200);
     postMessage("http://media3.giphy.com/media/YCseTHF2I6CCA/giphy.gif");
