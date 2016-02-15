@@ -45,7 +45,7 @@ function respond() {
   } 
   else if(request.text && botRegexhelp.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("**List of commands for Fedora Bot.**        */swag* */420* */cool guy* */hank* */tim* */luke* */ayy* */trevor*. **Message Tim to add more commands.**"+request.text.substring(5,8)+"/depthchart");
+    postMessage("**List of commands for Fedora Bot.**        */swag* */420* */cool guy* */hank* */tim* */luke* */ayy* */trevor* */tygr* */sex*. **Message Tim to add more commands.**"+request.text.substring(5,8)+"/depthchart");
     this.res.end();
   } 
   else if(request.text && botRegextim.test(request.text)) {
