@@ -23,7 +23,7 @@ function respond() {
   } 
   else if(request.text && botRegex420.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://media.giphy.com/media/uwsxhPG9UO5FK/giphy.gif"+request.text.substring(5,8)+"/depthchart");
+    postMessage("https://media.giphy.com/media/uwsxhPG9UO5FK/giphy.gif");
     this.res.end();
   } 
   else if(request.text && botRegexDL.test(request.text)) {
