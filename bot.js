@@ -24,7 +24,7 @@ function respond() {
   } 
   else if(request.text && botRegexhelp.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("sample text"+request.text.substring(5,8)+"/depthchart");
+    postMessage("sample text"+request.text.substring(5,8)+);
     this.res.end();
   } 
   else if(request.text && botRegextim.test(request.text)) {
