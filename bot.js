@@ -21,10 +21,6 @@ function respond() {
     this.res.writeHead(200);
     postMessage(cool());
     this.res.end();
-      else if(request.text && botRegexhelp.test(request.text)) {
-    this.res.writeHead(200);
-    postMessage("text goes here");
-    this.res.end();
   } 
   else if(request.text && botRegextim.test(request.text)) {
     this.res.writeHead(200);
