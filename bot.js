@@ -21,7 +21,7 @@ function respond() {
     postMessage(cool());
     this.res.end();
   } 
-  else if(request.text && botRegexluke.test(request.text)) {
+  else if(request.text && botRegexLuke.test(request.text)) {
     this.res.writeHead(200);
     postMessage("http://i.imgur.com/dvhWU9L.png");
     this.res.end();
