@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegexswag = /^\/swag/;
+      botRegexswag = /^\/swag/;   botRegextim = /^\/tim/;
       botRegex420 = /^\/420/;  botRegexkill = /^\/kill/;  botRegexhank = /^\/hank/;  botRegexLuke = /^\/luke/
       botRegex = /^\/cool guy/;  botRegexDL = /^\/DDL/i;botRegexSalt = /^\/salt/;botRegexRules = /^\/rules/
       botRegex = /^\/cool guy/;  botRegexDL = /^\/DDL/i;botRegexSalt = /^\/salt/;botRegexRules = /^\/ayy/
@@ -20,6 +20,11 @@ function respond() {
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
     postMessage(cool());
+    this.res.end();
+  } 
+  else if(request.text && botRegextim.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://i.imgur.com/B0UyYzo.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexswag.test(request.text)) {
