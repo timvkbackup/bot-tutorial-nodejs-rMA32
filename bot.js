@@ -139,7 +139,7 @@ function respond() {
 
   else if(request.text && botRegexgog.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://www.google.#q=/"+request.text.substring(8,request.text.length));
+    postMessage("http://www.google.com/#q="+request.text.substring(8,request.text.length));
     this.res.end();
   }  
 
