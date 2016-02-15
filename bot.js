@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegexdecoy = /^\/decoy/;   botRegexcole = /^\/cole/; botRegextip = /^\/tip/;
+      botRegexdecoy = /^\/decoy/;   botRegexcole = /^\/cole/; botRegextip = /^\/tip/;  botRegexgog = /^\/google/i;
       botRegextrev = /^\/trevor/;  botRegexsex = /^\/sex/;   botRegextygr = /^\/tygr/;   botRegexlike = /^\/like/;
       botRegexswag = /^\/swag/;   botRegextim = /^\/tim/;   botRegexhelp = /^\/help/;   botRegexhigh = /^\/high/;
       botRegex420 = /^\/420/;  botRegexkill = /^\/kill/;  botRegexhank = /^\/hank/;  botRegexLuke = /^\/luke/
@@ -134,6 +134,12 @@ function respond() {
     var req = request.text.substring(5,request.text.length);
     var rep = req.replace(/ /,"+");
     postMessage("http://daddyleagues.com/ma32/players?name="+rep+"&position=all&team=all");
+    this.res.end();
+  }  
+
+  else if(request.text && botRegexgog.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://www.google.#q=/"+request.text.substring(8,request.text.length));
     this.res.end();
   }  
 
