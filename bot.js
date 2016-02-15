@@ -5,6 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
+      botRegextrev = /^\/trevor/;
       botRegexswag = /^\/swag/;   botRegextim = /^\/tim/;   botRegexhelp = /^\/help/;   botRegexhigh = /^\/high/;
       botRegex420 = /^\/420/;  botRegexkill = /^\/kill/;  botRegexhank = /^\/hank/;  botRegexLuke = /^\/luke/
       botRegex = /^\/cool guy/;  botRegexDL = /^\/DDL/i;botRegexSalt = /^\/salt/;botRegexRules = /^\/rules/
@@ -22,6 +23,11 @@ function respond() {
     postMessage(cool());
     this.res.end();
   } 
+    else if(request.text && botRegextrev.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://i.imgur.com/0unPBeB.jpg");
+    this.res.end();
+  } 
   else if(request.text && botRegexhigh.test(request.text)) {
     this.res.writeHead(200);
     postMessage("http://i.imgur.com/mZrnald.png");
@@ -29,7 +35,7 @@ function respond() {
   } 
   else if(request.text && botRegexhelp.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("**List of commands for Fedora Bot.** */swag* /420 /cool guy /hank /tim /luke /ayy. Message Tim to add more commands."+request.text.substring(5,8)+"/depthchart");
+    postMessage("**List of commands for Fedora Bot.**        */swag* */420* */cool guy* */hank* */tim* */luke* */ayy*. **Message Tim to add more commands.**"+request.text.substring(5,8)+"/depthchart");
     this.res.end();
   } 
   else if(request.text && botRegextim.test(request.text)) {
