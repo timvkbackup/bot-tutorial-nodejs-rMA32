@@ -5,7 +5,8 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegexgoopply = /^\/goopply/;   botRegextrig = /^\/triggered/;   botRegexdank = /^\/dank/;
+      botRegexdankmeme = /^\/dankmeme/;
+      botRegexgoopply = /^\/goopply/;   botRegextrig = /^\/triggered/;   botRegexdank = /^\/dank/;   botRegexmeme = /^\/meme/;
       botRegexandrew = /^\/andrew/;   botRegexdick = /^\/dick/;   botRegexfap = /^\/fap/;   botRegexdep = /^\/depression/;
       botRegexnb = /^\/nb/;   botRegextrump = /^\/trump/;   botRegexbernie = /^\/bernie/;   botRegexfamily = /^\/family/;
       botRegexdecoy = /^\/decoy/;   botRegexcole = /^\/cole/; botRegextip = /^\/tip/;   botRegexgog = /^\/google/i;
@@ -25,6 +26,16 @@ function respond() {
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
     postMessage(cool());
+    this.res.end();
+  } 
+    else if(request.text && botRegexdankmeme.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://img.ifcdn.com/images/1a0e7ec9f782198f4da33c98cae172a131aa28bf5ab8816fe9692555554ab869_1.gif");
+    this.res.end();
+  } 
+    else if(request.text && botRegexmeme.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://i.imgur.com/wmoqE2L.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexdank.test(request.text)) {
@@ -124,7 +135,7 @@ function respond() {
   } 
   else if(request.text && botRegexhelp.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("**List of commands for Fedora Bot.**        **/swag    /dank    /triggered     /goopply    /depression    /fap   /dick   /420    /cool guy    /hank    /tim    /luke    /ayy    /trevor    /tygr    /sex    /like    /decoy    /cole   /bernie     /trump      /andrew       /family**. If you wanna share a twitch.tv link type /twitch then enter channel name and bot will auto complete link. To google from the chat type /google then what you want to search, to add multiple words put a + between every word. **Message Tim to add more commands.**"+request.text.substring(5,8)+"/depthchart");
+    postMessage("**List of commands for Fedora Bot.**        **/swag   /dankmeme    /meme    /dank    /triggered     /goopply    /depression    /fap   /dick   /420    /cool guy    /hank    /tim    /luke    /ayy    /trevor    /tygr    /sex    /like    /decoy    /cole   /bernie     /trump      /andrew       /family**. If you wanna share a twitch.tv link type /twitch then enter channel name and bot will auto complete link. To google from the chat type /google then what you want to search, to add multiple words put a + between every word. **Message Tim to add more commands.**"+request.text.substring(5,8)+"/depthchart");
     this.res.end();
   } 
   else if(request.text && botRegextim.test(request.text)) {
