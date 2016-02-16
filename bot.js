@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegexnb = /^\/nb/;
+      botRegexnb = /^\/nb/;   botRegextrump = /^\/trump/;
       botRegexdecoy = /^\/decoy/;   botRegexcole = /^\/cole/; botRegextip = /^\/tip/;   botRegexgog = /^\/google/i;
       botRegextrev = /^\/trevor/;  botRegexsex = /^\/sex/;   botRegextygr = /^\/tygr/;   botRegexlike = /^\/like/;
       botRegexswag = /^\/swag/;   botRegextim = /^\/tim/;   botRegexhelp = /^\/help/;   botRegexhigh = /^\/high/;
@@ -23,6 +23,11 @@ function respond() {
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
     postMessage(cool());
+    this.res.end();
+  } 
+    else if(request.text && botRegextrump.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://www.theterribletruth.org/wp-content/uploads/Screen-Shot-2015-07-08-at-11.23.21-PM.png");
     this.res.end();
   } 
     else if(request.text && botRegexnb.test(request.text)) {
