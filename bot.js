@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegexdankmeme = /^\/dankmeme/;    botRegexnondankmeme = /^\/nondankmeme/;
+      botRegexdankmeme = /^\/dankmeme/;    botRegexnondankmeme = /^\/nondankmeme/;    botRegeximtriggered = /^\/imtriggered/;
       botRegexgoopply = /^\/goopply/;   botRegextrig = /^\/triggered/;   botRegexdank = /^\/dank/;   botRegexmeme = /^\/meme/;
       botRegexandrew = /^\/andrew/;   botRegexdick = /^\/dick/;   botRegexfap = /^\/fap/;   botRegexdep = /^\/depression/;
       botRegexnb = /^\/nb/;   botRegextrump = /^\/trump/;   botRegexbernie = /^\/bernie/;   botRegexfamily = /^\/family/;
@@ -26,6 +26,11 @@ function respond() {
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
     postMessage(cool());
+    this.res.end();
+  } 
+    else if(request.text && botRegeximtriggered.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://i.imgur.com/HKXZL03.png");
     this.res.end();
   } 
     else if(request.text && botRegexnondankmeme.test(request.text)) {
