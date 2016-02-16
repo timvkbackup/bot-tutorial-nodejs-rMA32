@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegexnb = /^\/nb/;   botRegextrump = /^\/trump/;
+      botRegexnb = /^\/nb/;   botRegextrump = /^\/trump/;   botRegexbernie = /^\/bernie/;
       botRegexdecoy = /^\/decoy/;   botRegexcole = /^\/cole/; botRegextip = /^\/tip/;   botRegexgog = /^\/google/i;
       botRegextrev = /^\/trevor/;  botRegexsex = /^\/sex/;   botRegextygr = /^\/tygr/;   botRegexlike = /^\/like/;
       botRegexswag = /^\/swag/;   botRegextim = /^\/tim/;   botRegexhelp = /^\/help/;   botRegexhigh = /^\/high/;
@@ -23,6 +23,11 @@ function respond() {
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
     postMessage(cool());
+    this.res.end();
+  } 
+    else if(request.text && botRegexbernie.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://images6.fanpop.com/image/photos/34700000/Burnie-Burns-roosterteeth-34724396-1136-640.jpg");
     this.res.end();
   } 
     else if(request.text && botRegextrump.test(request.text)) {
