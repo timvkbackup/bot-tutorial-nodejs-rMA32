@@ -93,7 +93,7 @@ function respond() {
   } 
   else if(request.text && botRegexhelp.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("**List of commands for Fedora Bot.**        **/swag   /420    /cool guy    /hank    /tim    /luke    /ayy    /trevor    /tygr    /sex    /like    /decoy    /cole   /bernie     /trump      /andrew       /family**. If you wanna share a twitch.tv link type /twitch then enter channel name and bot will auto complete link. **Message Tim to add more commands.**"+request.text.substring(5,8)+"/depthchart");
+    postMessage("**List of commands for Fedora Bot.**        **/swag   /420    /cool guy    /hank    /tim    /luke    /ayy    /trevor    /tygr    /sex    /like    /decoy    /cole   /bernie     /trump      /andrew       /family**. If you wanna share a twitch.tv link type /twitch then enter channel name and bot will auto complete link. To google from the chat type /google then what you want to search, to add multiple words put a + between every word. **Message Tim to add more commands.**"+request.text.substring(5,8)+"/depthchart");
     this.res.end();
   } 
   else if(request.text && botRegextim.test(request.text)) {
