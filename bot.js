@@ -319,6 +319,6 @@ function postMessage(response) {
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 
-
+}
 
 exports.respond = respond;
