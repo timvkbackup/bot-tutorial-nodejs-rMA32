@@ -319,6 +319,8 @@ function postMessage(response) {
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 
+exports.respond = respond;
+
 'use strict';
 
 var PUBLIC_KEY = 'dc6zaTOxFJmzC';
@@ -433,5 +435,3 @@ $queryInput.on('keyup', function (e) {
     }
   }, 1000);
 });
-
-exports.respond = respond;
