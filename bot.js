@@ -71,7 +71,7 @@ function respond() {
   } 
     else if(request.text && botRegexdep.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/398x398.png.e2f0c726aa5d451b9085269d6780091b");
+    postMessage("http://imgur.com/JFyjzqf");
     this.res.end();
   } 
     else if(request.text && botRegexfap.test(request.text)) {
