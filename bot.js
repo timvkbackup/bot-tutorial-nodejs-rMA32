@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegexfedorabot = /^\/fedorabot/;
+      botRegexfedorabot = /^\/fedorabot/;    botRegextrump1 = /^\/make/;    botRegextrump2 = /^\/small/;
       botRegexdankmeme = /^\/dankmeme/;    botRegexnondankmeme = /^\/nondankmeme/;    botRegeximtriggered = /^\/imtriggered/;
       botRegexgoopply = /^\/goopply/;   botRegextrig = /^\/triggered/;   botRegexdank = /^\/dank/;   botRegexmeme = /^\/meme/;
       botRegexandrew = /^\/andrew/;   botRegexdick = /^\/dick/;   botRegexfap = /^\/fap/;   botRegexdep = /^\/depression/;
@@ -27,6 +27,16 @@ function respond() {
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
     postMessage(cool());
+    this.res.end();
+  } 
+    else if(request.text && botRegextrump2.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("loan of a million dollars");
+    this.res.end();
+  } 
+    else if(request.text && botRegextrump1.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("America Great Again!");
     this.res.end();
   } 
     else if(request.text && botRegexfedorabot.test(request.text)) {
