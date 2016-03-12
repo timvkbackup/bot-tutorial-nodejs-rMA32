@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegexgethank = /^\/gethankt/;    botRegexemo = /^\/emotim/;  
+      botRegexgethank = /^\/gethankt/;    botRegexemo = /^\/emotim/;           botRegexanimeisbad = /^\/animeisnotreal/;  
       botRegexfedorabot = /^\/fedorabot/;    botRegextrump1 = /^\/make/;    botRegextrump2 = /^\/small/;    botRegexhowtrump = /^\/how?/;
       botRegexdankmeme = /^\/dankmeme/;    botRegexnondankmeme = /^\/nondankmeme/;    botRegeximtriggered = /^\/imtriggered/;
       botRegexgoopply = /^\/goopply/;   botRegextrig = /^\/triggered/;   botRegexdank = /^\/dank/;   botRegexmeme = /^\/meme/;
@@ -28,6 +28,11 @@ function respond() {
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
     postMessage(cool());
+    this.res.end();
+  } 
+    else if(request.text && botRegexanimeisbad.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("Anime isn't real you fucking losers. Save your love for the real world. Stop acting like anime is real or better then real life. You're going to be sad and alone if you do nothing but watch anime. Nothing wrong with being antisocial but damn. Some of you weebs take everything too far. Why're you collecting foreign weapons you don't know how to use? That's red flaggy. Put you on a watch list when your clumsy ass sloppily cuts up your grandma cause she wouldn't buy you your narutos. Life is stressful, life is hard, there are times where everything and everyone sucks and I'm miserable. But I don't want to spend my life trying to escape or avoid my hardships and problems. Cause then I'll end up living an empty life. Never making friends. Never finding love. Never accomplishing anything. So. I don't want other people to let anime consume their lives and distract them from important things in life or from things they really want to do. Having hobbies and something you can use to take your mind off things is good. But don't let it be the only thing you care about. There are Victims and there are creators. Do you want to live your life as a victim? Bickering on the Internet and whining or lashing out when someone says something you don't like or that disagrees with your fragile point of view? I wouldn't be in this group if I didn't watch anime and manga too. :') The entire point of my post regardless of how rude I was was that people shouldn't take anime so seriously and let it entirely consume their lives. You can balance it. I don't understand why people take it so personally? Unless they think they're that bad. If what I said hits home that much then. Maybe there is a problem. wink emoticon if they take it so personally and identify with it. Did you ever think that maybe doing nothing but trying to escape is unhealthy and will get you nowhere? Don't play the victim. Some hardships and difficulties are unavoidable. But you can take charge. Every situation you come across in life shapes you as a person.");
     this.res.end();
   } 
     else if(request.text && botRegexemo.test(request.text)) {
