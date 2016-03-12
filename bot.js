@@ -37,7 +37,7 @@ function respond() {
     } 
     else if(request.text && botRegexdoyou.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("you?");
+    postMessage("Do you honestly think you're fucking funny, fucking with my friends? Seriously, you're a fucking ugly little cunt mate, and if I ever see you i'm gunna slit your fucking face wide open yeh? You're a fucking angry little fucking spastic. OK, right, let’s, first off, uhh you’re seventeen so you’re not even old enough to play the game, you’re from Scotland not Nigeria and you annoy people and put them on YouTube ‘cos you’re a cunt, which I totally agree with. So why don’t you crawl back up your mum’s fanny and die? Right, I’ll tell you what, you fat little cunt, you’re borin’ you don’t sound Nigerian at all so go fuck yourself… GO AND CRAWL IN A DIRTY DANK LITTLE HOLE WHERE YOU FUCKING COME FROM, YOU DIRTY DRAGON EATIN’ LITTLE FUCKING SPASTIC. Right, OK, the ‘dragon’ comment was probably a little bit fucking over-the-top, but at the end of the day you’re fucking borin’. Every single person who watches your videos are fucking stoopid. They’re fucking ignorant little cunts. And you’re just a fucking retard.﻿");
     this.res.end();
   } 
     else if(request.text && botRegexemo.test(request.text)) {
