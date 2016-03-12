@@ -187,7 +187,7 @@ function respond() {
   } 
   else if(request.text && botRegexhelp.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("**List of commands for FurrBot.**  /emotim: /gethankt: /make: /small: /swag: /fedorabot: /imtriggered: /dankmeme: /nondankmeme: /meme:  /dank:  /triggered: /goopply: /depression: /fap: /dick: /420: /cool guy: /hank: /tim: /luke: /ayy: /trevor: /tygr: /sex: /like: /decoy: /cole: /bernie: /trump: /andrew: /family: /twitch then enter channel name: /google then+what+you+want+to+search+with+like+this: **Message Tim to add more commands.**"+request.text.substring(5,8)+"/depthchart");
+    postMessage("**List of commands for FurrBot.**  /animeisnotreal: /doyou: /emotim: /gethankt: /make: /small: /swag: /fedorabot: /imtriggered: /dankmeme: /nondankmeme: /meme:  /dank:  /triggered: /goopply: /depression: /fap: /dick: /420: /cool guy: /hank: /tim: /luke: /ayy: /trevor: /tygr: /sex: /like: /decoy: /cole: /bernie: /trump: /andrew: /family: /twitch then enter channel name: /google then+what+you+want+to+search+with+like+this: **Message Tim to add more commands.**"+request.text.substring(5,8)+"/depthchart");
     this.res.end();
   } 
   else if(request.text && botRegextim.test(request.text)) {
