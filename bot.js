@@ -228,7 +228,7 @@ function respond() {
   } 
   else if(request.text && botRegexSalt.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.imgur.com/B5BSVqH.png");
+    postMessage("http://vignette2.wikia.nocookie.net/fairlyoddparents/images/2/26/Anti-Cosmo_With_1_Salt_Shaker_%26_Jorgen's_Foot.jpg/revision/latest/scale-to-width-down/640?cb=20120220192357&path-prefix=en");
     this.res.end();
   } 
   else if(request.text && botRegexAd.test(request.text)) {
