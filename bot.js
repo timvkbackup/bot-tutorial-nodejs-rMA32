@@ -32,12 +32,12 @@ function respond() {
   } 
     else if(request.text && botRegexanimeisbad.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("Anime isn't real you fucking losers. Save your love for the real world. Stop acting like anime is real or better then real life. You're going to be sad and alone if you do nothing but watch anime. Nothing wrong with being antisocial but damn. Some of you weebs take everything too far. Why're you collecting foreign weapons you don't know how to use? That's red flaggy. Put you on a watch list when your clumsy ass sloppily cuts up your grandma cause she wouldn't buy you your narutos. Life is stressful, life is hard.");
+    postMessage("Timmy... I'm respecting your privacy by knocking, but asserting my authority as your father by coming in anyway.");
     this.res.end();
     } 
     else if(request.text && botRegexdoyou.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("Do you honestly think you're fucking funny, fucking with my friends? Seriously, you're a fucking ugly little cunt mate, and if I ever see you i'm gunna slit your fucking face wide open yeh? You're a fucking angry little fucking spastic. OK, right, let’s, first off, uhh you’re seventeen so you’re not even old enough to play the game, you’re from Scotland not Nigeria and you annoy people and put them on YouTube ‘cos you’re a cunt, which I totally agree with. So why don’t you crawl back up your mum’s fanny and die? Right, I’ll tell you what, you fat little cunt, you’re borin’ you don’t sound Nigerian at all so go fuck yourself.");
+    postMessage("Uhh, the internet!");
     this.res.end();
   } 
     else if(request.text && botRegexemo.test(request.text)) {
@@ -187,7 +187,7 @@ function respond() {
   } 
   else if(request.text && botRegexhelp.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("**List of commands for TimmyBot.**  /animeisnotreal: /doyou: /emotim: /gethankt: /make: /small: /swag: /fedorabot: /imtriggered: /dankmeme: /nondankmeme: /meme:  /dank:  /triggered: /goopply: /depression: /fap: /dick: /420: /cool guy: /hank: /tim: /luke: /ayy: /trevor: /tygr: /sex: /like: /decoy: /cole: /bernie: /trump: /andrew: /family: /twitch then enter channel name: /google then+what+you+want+to+search+with+like+this.**"+request.text.substring(5,8)+"/depthchart");
+    postMessage("**Only Active for 4/1/2016 ** List of commands for TimmyBot.**  /animeisnotreal: /doyou: /emotim: /gethankt: /make: /small: /swag: /fedorabot: /imtriggered: /dankmeme: /nondankmeme: /meme:  /dank:  /triggered: /goopply: /depression: /fap: /dick: /420: /cool guy: /hank: /tim: /luke: /ayy: /trevor: /tygr: /sex: /like: /decoy: /cole: /bernie: /trump: /andrew: /family: /twitch then enter channel name: /google then+what+you+want+to+search+with+like+this.**"+request.text.substring(5,8)+"/depthchart");
     this.res.end();
   } 
   else if(request.text && botRegextim.test(request.text)) {
