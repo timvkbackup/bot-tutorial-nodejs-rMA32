@@ -157,7 +157,7 @@ function respond() {
   } 
     else if(request.text && botRegexdecoy.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://vignette1.wikia.nocookie.net/fairlyoddparents/images/7/7d/SecretOrigin27.png/revision/latest?cb=20110208180632&path-prefix=en");
+    postMessage("http://i.imgur.com/5mlybBD.png");
     this.res.end();
   } 
     else if(request.text && botRegexlike.test(request.text)) {
