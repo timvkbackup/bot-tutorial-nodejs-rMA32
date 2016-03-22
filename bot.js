@@ -87,57 +87,57 @@ function respond() {
   } 
     else if(request.text && botRegexmeme.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/wmoqE2L.jpg");
+    postMessage("http://img.memecdn.com/fairly-odd-parents_o_1330033.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexdank.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/xjh15.jpg");
+    postMessage("http://41.media.tumblr.com/76770885cab4b49306470231ccac882a/tumblr_n9v3p5pWPE1rgeqm5o1_500.jpg");
     this.res.end();
   } 
     else if(request.text && botRegextrig.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/JviFpAg.jpg");
+    postMessage("http://img.memecdn.com/uh-oh_o_4457687.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexgoopply.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/syuwL4E.gifv");
+    postMessage("http://vignette2.wikia.nocookie.net/fairlyoddparents/images/8/84/ShelfLife240.png/revision/latest?cb=20110307232622&path-prefix=en");
     this.res.end();
   } 
     else if(request.text && botRegexdep.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://imgur.com/JFyjzqf");
+    postMessage("http://i.imgur.com/Xn3ZVJT.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexfap.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/VJaPGj3.jpg");
+    postMessage("http://i.imgur.com/RMcqL7i.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexdick.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/eFFdMmT.jpg");
+    postMessage("http://media.tumblr.com/tumblr_ll8ztmGiG51qafrh6.gif");
     this.res.end();
   } 
     else if(request.text && botRegexandrew.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/cvsdBLU.png");
+    postMessage("http://i.imgur.com/raWW699.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexfamily.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/eRJ7BVA.jpg");
+    postMessage("http://i.imgur.com/Lt8K0Vf.png");
     this.res.end();
   } 
     else if(request.text && botRegexbernie.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://images6.fanpop.com/image/photos/34700000/Burnie-Burns-roosterteeth-34724396-1136-640.jpg");
+    postMessage("http://i.imgur.com/iNxUdbk.png");
     this.res.end();
   } 
     else if(request.text && botRegextrump.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://www.theterribletruth.org/wp-content/uploads/Screen-Shot-2015-07-08-at-11.23.21-PM.png");
+    postMessage("http://i.imgur.com/ipEA6CH.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexnb.test(request.text)) {
