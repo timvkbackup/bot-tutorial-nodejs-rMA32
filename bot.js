@@ -5,7 +5,6 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-  test
       botRegexgethank = /^\/gethankt/;    botRegexemo = /^\/emotim/;      botRegexanimeisbad = /^\/animeisnotreal/;     botRegexdoyou = /^\/doyou/;    
       botRegexfedorabot = /^\/fedorabot/;    botRegextrump1 = /^\/make/;    botRegextrump2 = /^\/small/;    botRegexhowtrump = /^\/how?/;
       botRegexdankmeme = /^\/dankmeme/;    botRegexnondankmeme = /^\/nondankmeme/;    botRegeximtriggered = /^\/imtriggered/;
@@ -173,7 +172,7 @@ function respond() {
   } 
     else if(request.text && botRegexsex.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://giant.gfycat.com/UnfinishedTanIndianjackal.gif");
+    postMessage("https://pbs.twimg.com/media/Bc7qQnKCQAAy_LJ.jpg");
     this.res.end();
   } 
     else if(request.text && botRegextrev.test(request.text)) {
