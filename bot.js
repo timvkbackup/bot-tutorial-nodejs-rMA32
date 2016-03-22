@@ -42,12 +42,12 @@ function respond() {
   } 
     else if(request.text && botRegexemo.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/7deX2D9.jpg");
+    postMessage("http://i.imgur.com/q2d8a7S.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexgethank.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/GMfBPhN.gifv");
+    postMessage("http://i.imgur.com/mK4YAIj.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexhowtrump.test(request.text)) {
@@ -67,22 +67,22 @@ function respond() {
   } 
     else if(request.text && botRegexfedorabot.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/qRkMgCi.png");
+    postMessage("http://i.imgur.com/iO5Jk8S.png");
     this.res.end();
   } 
     else if(request.text && botRegeximtriggered.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/HKXZL03.png");
+    postMessage("http://media.thedailytouch.com/2015/05/933.gif");
     this.res.end();
   } 
     else if(request.text && botRegexnondankmeme.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/984x1113.png.0032d2c56436462ba692de0add22895a.large");
+    postMessage("http://img.memecdn.com/tootie-from-fairly-odd-parents_o_1230182.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexdankmeme.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://img.ifcdn.com/images/1a0e7ec9f782198f4da33c98cae172a131aa28bf5ab8816fe9692555554ab869_1.gif");
+    postMessage("http://img.memecdn.com/dun-dun-ddddunnnnnn_o_1240295.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexmeme.test(request.text)) {
