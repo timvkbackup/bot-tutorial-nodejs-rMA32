@@ -147,27 +147,27 @@ function respond() {
   } 
     else if(request.text && botRegextip.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("m'lady");
+    postMessage("http://i.imgur.com/oPnRrh6.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexcole.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/844x1500.jpeg.3b3a3cc8052e4a09988ffc1f1aa0c05f.large");
+    postMessage("http://i.imgur.com/dO3FkKq.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexdecoy.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/Yr7eKZk.jpg");
+    postMessage("http://vignette1.wikia.nocookie.net/fairlyoddparents/images/7/7d/SecretOrigin27.png/revision/latest?cb=20110208180632&path-prefix=en");
     this.res.end();
   } 
     else if(request.text && botRegexlike.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/egXb2xW.png");
+    postMessage("http://i.imgur.com/hAUvd4o.jpg");
     this.res.end();
   } 
     else if(request.text && botRegextygr.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/UC7ZaK1.jpg");
+    postMessage("http://data.whicdn.com/images/9730936/original.png");
     this.res.end();
   } 
     else if(request.text && botRegexsex.test(request.text)) {
@@ -177,12 +177,12 @@ function respond() {
   } 
     else if(request.text && botRegextrev.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/0unPBeB.jpg");
+    postMessage("http://i.imgur.com/pXNXevz.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexhigh.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/mZrnald.png");
+    postMessage("http://i.imgur.com/8cAfHcZ.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexhelp.test(request.text)) {
@@ -192,32 +192,32 @@ function respond() {
   } 
   else if(request.text && botRegextim.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/B0UyYzo.jpg");
+    postMessage("http://i.imgur.com/wmQyjlr.png");
     this.res.end();
   } 
   else if(request.text && botRegexswag.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/JCUUO3U.jpg");
+    postMessage("http://i.imgur.com/Fs0cqj0.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexLuke.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/dvhWU9L.png");
+    postMessage("https://pbs.twimg.com/media/CRhm6MPUwAAoh66.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexhank.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/TCOKt8g.png");
+    postMessage("http://i.imgur.com/NaTfjHL.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexkill.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://media.giphy.com/media/3ORizZtUhUXFm/giphy.gif");
+    postMessage("https://i.ytimg.com/vi/oIgYIDQPAtI/hqdefault.jpg");
     this.res.end();
   }  
   else if(request.text && botRegex420.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://media.giphy.com/media/uwsxhPG9UO5FK/giphy.gif");
+    postMessage("http://i.imgur.com/UkO6Y0v.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexDL.test(request.text)) {
@@ -227,7 +227,7 @@ function respond() {
   } 
   else if(request.text && botRegexSalt.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://vignette2.wikia.nocookie.net/fairlyoddparents/images/2/26/Anti-Cosmo_With_1_Salt_Shaker_%26_Jorgen's_Foot.jpg/revision/latest/scale-to-width-down/640?cb=20120220192357&path-prefix=en");
+    postMessage("http://i.imgur.com/w13Rad8.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexAd.test(request.text)) {
