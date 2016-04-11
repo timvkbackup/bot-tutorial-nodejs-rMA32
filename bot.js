@@ -122,7 +122,7 @@ function respond() {
   } 
     else if(request.text && botRegexandrew.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("hhttp://stonerschematics.com/wp-content/uploads/2012/02/Jesus-Weed.jpg");
+    postMessage("http://stonerschematics.com/wp-content/uploads/2012/02/Jesus-Weed.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexfamily.test(request.text)) {
