@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegexgethank = /^\/gethankt/;    botRegexemo = /^\/emotim/;      botRegexanimeisbad = /^\/door/;     botRegexdoyou = /^\/uhh/;    
+      botRegexgethank = /^\/gethankt/;    botRegexemo = /^\/emotim/;      botRegexanimeisbad = /^\/woah/;     botRegexdoyou = /^\/smoke/;    
       botRegexfedorabot = /^\/fedorabot/;    botRegextrump1 = /^\/make/;    botRegextrump2 = /^\/small/;    botRegexhowtrump = /^\/how?/;
       botRegexdankmeme = /^\/dankmeme/;    botRegexnondankmeme = /^\/nondankmeme/;    botRegeximtriggered = /^\/imtriggered/;
       botRegexgoopply = /^\/goopply/;   botRegextrig = /^\/triggered/;   botRegexdank = /^\/dank/;   botRegexmeme = /^\/meme/;
@@ -32,112 +32,112 @@ function respond() {
   } 
     else if(request.text && botRegexanimeisbad.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("Timmy... I'm respecting your privacy by knocking, but asserting my authority as your father by coming in anyway.");
+    postMessage("I'm high as fuck.");
     this.res.end();
     } 
     else if(request.text && botRegexdoyou.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("Uhh, the internet!");
+    postMessage("Weed everyday");
     this.res.end();
   } 
     else if(request.text && botRegexemo.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/q2d8a7S.jpg");
+    postMessage("http://data.whicdn.com/images/20890190/large.png");
     this.res.end();
   } 
     else if(request.text && botRegexgethank.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/mK4YAIj.jpg");
+    postMessage("http://scontent.cdninstagram.com/hphotos-xfa1/l/t51.2885-15/s306x306/e15/10986116_928464173853919_754618097_n.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexhowtrump.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("Visit my campaign site: http://www.donaldjdrumpf.com");
+    postMessage("Weed weed weed weeeeeeeeeeeeeed");
     this.res.end();
   } 
     else if(request.text && botRegextrump2.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("loan of a million dollars");
+    postMessage("loan of weed");
     this.res.end();
   } 
     else if(request.text && botRegextrump1.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("America Great Again!");
+    postMessage("WEEED");
     this.res.end();
   } 
     else if(request.text && botRegexfedorabot.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/iO5Jk8S.png");
+    postMessage("https://i.ytimg.com/vi/a3JE3S1yzp8/maxresdefault.jpg");
     this.res.end();
   } 
     else if(request.text && botRegeximtriggered.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://media.thedailytouch.com/2015/05/933.gif");
+    postMessage("https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/12543347_1618618608188393_102376252_n.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexnondankmeme.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://img.memecdn.com/tootie-from-fairly-odd-parents_o_1230182.jpg");
+    postMessage("http://i3.kym-cdn.com/photos/images/newsfeed/000/499/656/6c7.png");
     this.res.end();
   } 
     else if(request.text && botRegexdankmeme.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://img.memecdn.com/dun-dun-ddddunnnnnn_o_1240295.jpg");
+    postMessage("https://s-media-cache-ak0.pinimg.com/736x/42/8b/ab/428babc841b79e120b2ae2b93555ef79.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexmeme.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://img.memecdn.com/fairly-odd-parents_o_1330033.jpg");
+    postMessage("http://420singles.com/wp-content/uploads/alpaca-bowl-weed-meme.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexdank.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://41.media.tumblr.com/76770885cab4b49306470231ccac882a/tumblr_n9v3p5pWPE1rgeqm5o1_500.jpg");
+    postMessage("http://49.media.tumblr.com/47ff793cb7ba158d4b7a663baf7ef0af/tumblr_ntlt2vsmPx1rmy8suo1_400.gif");
     this.res.end();
   } 
     else if(request.text && botRegextrig.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://img.memecdn.com/uh-oh_o_4457687.jpg");
+    postMessage("http://scontent.cdninstagram.com/t51.2885-19/s150x150/10817636_464583063740570_576118681_a.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexgoopply.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://vignette2.wikia.nocookie.net/fairlyoddparents/images/8/84/ShelfLife240.png/revision/latest?cb=20110307232622&path-prefix=en");
+    postMessage("http://fastweedonline.com/images/bud_weed_nanette_gonzalez_law.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexdep.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/Xn3ZVJT.jpg");
+    postMessage("http://honestmarijuana.com/wp-content/uploads/2015/12/Marijuana-And-Depression_6.gif");
     this.res.end();
   } 
     else if(request.text && botRegexfap.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/RMcqL7i.jpg");
+    postMessage("https://gurukalehuru.files.wordpress.com/2012/04/happy-420-girls-smoking-pot-331.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexdick.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://media.tumblr.com/tumblr_ll8ztmGiG51qafrh6.gif");
+    postMessage("http://26.media.tumblr.com/tumblr_lstu8hWzuK1qffvh2o1_500.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexandrew.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/raWW699.jpg");
+    postMessage("hhttp://stonerschematics.com/wp-content/uploads/2012/02/Jesus-Weed.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexfamily.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/Lt8K0Vf.png");
+    postMessage("https://c8.staticflickr.com/9/8460/8044628759_aa1044d552_z.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexbernie.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/iNxUdbk.png");
+    postMessage("http://i.imgur.com/Ra6DYR4.png");
     this.res.end();
   } 
     else if(request.text && botRegextrump.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/ipEA6CH.jpg");
+    postMessage("https://i.ytimg.com/vi/QU0DgX1-Wh4/hqdefault.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexnb.test(request.text)) {
@@ -147,77 +147,77 @@ function respond() {
   } 
     else if(request.text && botRegextip.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/oPnRrh6.jpg");
+    postMessage("http://images.bigcartel.com/bigcartel/product_images/156368998/max_h-1000+max_w-1000/gsdgsd.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexcole.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/dO3FkKq.jpg");
+    postMessage("http://space1026.com/wp-content/uploads/2013/04/420ndzws06-560x420.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexdecoy.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/5mlybBD.png");
+    postMessage("https://cdn42.picsart.com/182513090001201.png?r640x640");
     this.res.end();
   } 
     else if(request.text && botRegexlike.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/hAUvd4o.jpg");
+    postMessage("https://s-media-cache-ak0.pinimg.com/736x/4a/b6/5b/4ab65b6a85ea79b4267f7f178df5fb10.jpg");
     this.res.end();
   } 
     else if(request.text && botRegextygr.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://data.whicdn.com/images/9730936/original.png");
+    postMessage("http://41.media.tumblr.com/4a9a402a1b41f2712c242394259b1952/tumblr_myu6e9MSih1spltqco1_500.jpg");
     this.res.end();
   } 
     else if(request.text && botRegexsex.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://pbs.twimg.com/media/Bc7qQnKCQAAy_LJ.jpg");
+    postMessage("https://38.media.tumblr.com/af1cc3c25c9da94edf8009a891ca2f82/tumblr_inline_o2kal18QmO1tg8kf9_500.gif");
     this.res.end();
   } 
     else if(request.text && botRegextrev.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/pXNXevz.jpg");
+    postMessage("http://static.seattletimes.com/wp-content/uploads/2015/04/62cd177e-e7bc-11e4-95e4-5b813b50dde0-1020x718.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexhigh.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/8cAfHcZ.jpg");
+    postMessage("https://s-media-cache-ak0.pinimg.com/736x/69/01/20/690120918b33134d3dbc313b184d0929.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexhelp.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("**Only Active for 4/1/2016 ** List of commands for TimmyBot.**  /uhh: /door: /emotim: /gethankt: /make: /small: /swag: /fedorabot: /imtriggered: /dankmeme: /nondankmeme: /meme:  /dank:  /triggered: /goopply: /depression: /fap: /dick: /420: /cool guy: /hank: /tim: /luke: /ayy: /trevor: /tygr: /sex: /like: /decoy: /cole: /bernie: /trump: /andrew: /family: /twitch then enter channel name: /google then+what+you+want+to+search+with+like+this.**"+request.text.substring(5,8)+"/depthchart");
+    postMessage("**Only Active for 4/20/2016 ** List of commands for WeedBot.**  /woah: /smoke: /emotim: /gethankt: /make: /small: /swag: /fedorabot: /imtriggered: /dankmeme: /nondankmeme: /meme:  /dank:  /triggered: /goopply: /depression: /fap: /dick: /420: /cool guy: /hank: /tim: /luke: /ayy: /trevor: /tygr: /sex: /like: /decoy: /cole: /bernie: /trump: /andrew: /family: /twitch then enter channel name: /google then+what+you+want+to+search+with+like+this.**"+request.text.substring(5,8)+"/depthchart");
     this.res.end();
   } 
   else if(request.text && botRegextim.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/wmQyjlr.png");
+    postMessage("https://i.ytimg.com/vi/_YpdEGgaapk/maxresdefault.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexswag.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/Fs0cqj0.jpg");
+    postMessage("http://image.blingee.com/images19/content/output/000/000/000/7c6/782790153_983236.gif");
     this.res.end();
   } 
   else if(request.text && botRegexLuke.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://pbs.twimg.com/media/CRhm6MPUwAAoh66.jpg");
+    postMessage("http://www.ozbongs.com.au/images/D/IMG_9642.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexhank.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/NaTfjHL.jpg");
+    postMessage("http://i.imgur.com/NdHzqcS.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexkill.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.ytimg.com/vi/oIgYIDQPAtI/hqdefault.jpg");
+    postMessage("https://www.420magazine.com/gallery/data/513/dscf0123.jpg");
     this.res.end();
   }  
   else if(request.text && botRegex420.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/UkO6Y0v.jpg");
+    postMessage("https://45.media.tumblr.com/dd8f874a7cb85709241b36a5dd0af35b/tumblr_o13ju4zgXD1uaoj9mo1_500.gif");
     this.res.end();
   } 
   else if(request.text && botRegexDL.test(request.text)) {
@@ -227,7 +227,7 @@ function respond() {
   } 
   else if(request.text && botRegexSalt.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/w13Rad8.jpg");
+    postMessage("http://northernutahturf.com/images/fertilization.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexAd.test(request.text)) {
